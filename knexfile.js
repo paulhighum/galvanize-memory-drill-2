@@ -5,9 +5,7 @@ require("dotenv").config()
 module.exports = {
   development: {
     client: "pg",
-    connection: {
-      filename: "postgres://localhost/coffee"
-    }
+    connection: "postgres://localhost/coffee"
   },
   production: {
     client: "pg",
